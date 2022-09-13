@@ -9,7 +9,7 @@ function generateElement() {
     div.classList.add("interactiveElement");
 
     let text = document.createElement("textarea");
-    div3.append(text);
+    div.append(text);
     text.addEventListener("keydown", function (e) {
         if (e.code == "Enter") addTaskHandler();
     })
