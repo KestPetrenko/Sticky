@@ -61,6 +61,7 @@ body {
 #interactivePanel {
     position: relative;
     height: 95vh;
+    display: flex;
 }
 
 .interactiveElement {
@@ -72,12 +73,14 @@ body {
 }
 
 .delete {
-    width: 20%;
-    height: 20%;
-    position: relative;
-    left: 80%;
+    width: 13%;
+    height: 13%;
+    position: absolute;
+    left: 87%;
     font-size: 3vw;
+    top: 0;
 }
+
 
 span {
     margin: 1%;
@@ -85,8 +88,24 @@ span {
     color: green;
 }
 
-textarea{
+.imhhh{
+    position: absolute;
     width: 100px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid black;
+    height: 100px;
+}
+
+textarea{
+    width: 34vw;
+    height: 25vw;
+    position: relative;
+    margin: auto;
+    font-size: 4vw;
+}
+
+
+#interactivePanel div{
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-right: 5%;
+    overflow: hidden;
 }
